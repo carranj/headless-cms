@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+  font-family: 'Lato', sans-serif;
+}
 a {
   text-decoration: none;
 }
-
-h1 {
-  font-family: Staatliches;
-  font-size: 120px;
-}
-
-#category {
-  font-family: Staatliches;
-  font-weight: 500;
+header .logo{
+	margin-top:10px;
+	width:240px;
+	font-size:34px;
+	float:left;
+	font-family: 'Great Vibes', cursive;
 }
 
 #title {
@@ -28,11 +30,6 @@ h1 {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.75;
-}
-
-.uk-navbar-container {
-  background: #fff !important;
-  font-family: Staatliches;
 }
 
 img:hover {

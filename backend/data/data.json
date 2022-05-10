@@ -23,7 +23,7 @@
   ],
   "homepage": {
     "seo": {
-      "metaTitle": "My personal Strapi blog",
+      "metaTitle": "Celebraciones Bellas",
       "metaDescription": "Discover my SEO friendly blog built with Strapi.",
       "shareImage": null
     },
@@ -35,11 +35,6 @@
     {
       "name": "David Doe",
       "email": "daviddoe@strapi.io",
-      "picture": null
-    },
-    {
-      "name": "Sarah Baker",
-      "email": "sarahbaker@strapi.io",
       "picture": null
     }
   ],
