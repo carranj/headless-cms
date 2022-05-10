@@ -4,15 +4,26 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { fetchAPI } from "../lib/api"
 
-const Home = ({ articles, homepage }) => {
+const Home = ({ homepage }) => {
   return (
     <Layout >
       <Seo seo={homepage.attributes.seo} />
-      <div className="uk-section">
-        <div className="uk-container uk-container-large">
-          <h1>{homepage.attributes.hero.title}</h1>
+        <div className="row">  
+          <div className="col-md-12 text-center">
+            <h1>San Angelo's BEST Event Coordinator &amp; Wedding Decor</h1>
+          </div>
         </div>
-      </div>
+        <div className="row">
+          <div className="col text-center">
+            <h3>Special Events</h3>
+          </div>
+          <div className="col text-center">
+            <h3>Rentals</h3>
+          </div>
+          <div className="col text-center">
+            <h3>Coordination</h3>
+          </div>
+        </div>
     </Layout>
   )
 }
